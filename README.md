@@ -20,23 +20,25 @@ DL, HSE, 2026.
 
 ## 3. Original Baseline (R0 / As is)
 
+ConvMixer-256/8, CIFAR-10, 25 epochs, NVIDIA T4 
 
-### ConvMixer-256/8, CIFAR-10, 25 epochs, NVIDIA T4.
+Train accuracy - 94.33%  | Test accuracy - 92.74%  
+Reference accuracy - 92.60%  | Training time  ~ 21 min 
 
-| Metric             | Value   |
-|--------------------|---------|
-| Train accuracy     | 94.33%  |
-| Test accuracy      | 92.74%  |
-| Reference accuracy | 92.60%  |
-| Training time      | ~21 min |
-
-### Accuracy
-
-![Train and test accuracy](results/accuracy.png)
-
-### Learning Rate
-
-![Learning rate schedule](results/learning_rate.png)
+<table>
+  <tr>
+    <th align="center">Train & Test Accuracy</th>
+    <th align="center">Learning Rate Schedule</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="results/accuracy.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="results/learning_rate.png" width="100%">
+    </td>
+  </tr>
+</table>
 
 ## 4. Team
 
