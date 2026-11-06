@@ -18,13 +18,29 @@ DL, HSE, 2026.
 
 ### TODO
 
-## 3. Original Baseline (R0)
+## 3. Original Baseline (R0 / As is)
 
-### TODO
+
+### ConvMixer-256/8, CIFAR-10, 25 epochs, NVIDIA T4.
+
+| Metric             | Value   |
+|--------------------|---------|
+| Train accuracy     | 94.33%  |
+| Test accuracy      | 92.74%  |
+| Reference accuracy | 92.60%  |
+| Training time      | ~21 min |
+
+### Accuracy
+
+![Train and test accuracy](results/accuracy.png)
+
+### Learning Rate
+
+![Learning rate schedule](results/learning_rate.png)
 
 ## 4. Team
 
-| Member | Responsibilities |
-|--------|------------------|
-| TODO   | TODO             |
-| TODO   | TODO             |
+| Member                    | Responsibilities |
+|---------------------------|------------------|
+| Цивлин А (SSHwizard07)    | TODO             |
+| Широкая А (annashirokaia) | TODO             |
