@@ -1,7 +1,8 @@
 # B8: ConvMixer Reproduction
 
 Reproduction and experimental analysis of **Patches Are All You Need?** on CIFAR-10. We aim to reproduce the original ConvMixer results, compare the model with ResNet and ViT, and investigate the effects of data augmentation and patch size
-DL, HSE, 2026.
+
+DL, HSE, 2026
 
 ## 1. Project Links
 - **Paper:** [Patches Are All You Need?](https://arxiv.org/abs/2201.09792)
@@ -11,15 +12,15 @@ DL, HSE, 2026.
 - **GitHub repository:** [SSHwizard07/dl-b8-convmixer](https://github.com/SSHwizard07/dl-b8-convmixer)
 - **Pre-registration PDF:** TODO
 - **Pre-registration Pull Request:** TODO
-- **Original baseline logs:** TODO
-- **Experiment tracking:** TODO
+- **Original baseline log:** [logs/r0-baseline.txt](https://github.com/SSHwizard07/dl-b8-convmixer/blob/main/logs/r0-baseline.txt)
+- **Experiment tracking:** [dl-b8-convmixer/logs](https://github.com/SSHwizard07/dl-b8-convmixer/tree/main/logs)
 
 ## 2. Original Baseline (R0 / As is)
 
 ConvMixer-256/8, CIFAR-10, 25 epochs, NVIDIA T4 
 
 Train accuracy - 94.33%  | Test accuracy - 92.74%  
-Reference accuracy - 92.60%  | Training time  ~ 21 min 
+Reference accuracy - 92.60%  | Training time  - 21 min 
 
 <table>
   <tr>
@@ -49,11 +50,11 @@ Training is performed using run.py. Exact dependency versions are recorded separ
 ## 4. Fixes & Experiments
 
 Fixes: 
-- No changes to the original train.py were required. PyTorch AMP deprecation warnings do not affect execution.
+- No changes to the original train.py were required. PyTorch AMP deprecation warnings do not affect execution
 
 Completed:
 - Original ConvMixer baseline: 92.74% test accuracy
-- Training logs and accuracy/LR plots
+- Training logs and accuracy / LR plots
 
 Planned:
 - Compare ConvMixer with ResNet and ViT at similar parameter counts
