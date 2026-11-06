@@ -1,0 +1,31 @@
+/content/dl-b8-convmixer/train.py:104: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+/content/dl-b8-convmixer/train.py:118: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+/content/dl-b8-convmixer/train.py:138: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+[ConvMixer] Epoch: 0 | Train Acc: 0.3976, Test Acc: 0.5270, Time: 50.5, lr: 0.005000
+[ConvMixer] Epoch: 1 | Train Acc: 0.6150, Test Acc: 0.6521, Time: 51.0, lr: 0.010000
+[ConvMixer] Epoch: 2 | Train Acc: 0.6937, Test Acc: 0.7444, Time: 50.9, lr: 0.015000
+[ConvMixer] Epoch: 3 | Train Acc: 0.7354, Test Acc: 0.7413, Time: 49.6, lr: 0.020000
+[ConvMixer] Epoch: 4 | Train Acc: 0.7587, Test Acc: 0.7753, Time: 50.5, lr: 0.025000
+[ConvMixer] Epoch: 5 | Train Acc: 0.7740, Test Acc: 0.7193, Time: 50.2, lr: 0.030000
+[ConvMixer] Epoch: 6 | Train Acc: 0.7858, Test Acc: 0.8045, Time: 50.0, lr: 0.035000
+[ConvMixer] Epoch: 7 | Train Acc: 0.7948, Test Acc: 0.7549, Time: 51.4, lr: 0.040000
+[ConvMixer] Epoch: 8 | Train Acc: 0.8021, Test Acc: 0.8007, Time: 50.8, lr: 0.045000
+[ConvMixer] Epoch: 9 | Train Acc: 0.8114, Test Acc: 0.8284, Time: 50.3, lr: 0.050000
+[ConvMixer] Epoch: 10 | Train Acc: 0.8206, Test Acc: 0.8205, Time: 51.2, lr: 0.045250
+[ConvMixer] Epoch: 11 | Train Acc: 0.8360, Test Acc: 0.8558, Time: 50.9, lr: 0.040500
+[ConvMixer] Epoch: 12 | Train Acc: 0.8500, Test Acc: 0.8594, Time: 50.1, lr: 0.035750
+[ConvMixer] Epoch: 13 | Train Acc: 0.8618, Test Acc: 0.8786, Time: 48.8, lr: 0.031000
+[ConvMixer] Epoch: 14 | Train Acc: 0.8748, Test Acc: 0.8741, Time: 49.7, lr: 0.026250
+[ConvMixer] Epoch: 15 | Train Acc: 0.8845, Test Acc: 0.8937, Time: 50.2, lr: 0.021500
+[ConvMixer] Epoch: 16 | Train Acc: 0.8973, Test Acc: 0.8982, Time: 49.1, lr: 0.016750
+[ConvMixer] Epoch: 17 | Train Acc: 0.9076, Test Acc: 0.9043, Time: 50.7, lr: 0.012000
+[ConvMixer] Epoch: 18 | Train Acc: 0.9187, Test Acc: 0.9116, Time: 50.7, lr: 0.007250
+[ConvMixer] Epoch: 19 | Train Acc: 0.9280, Test Acc: 0.9218, Time: 49.0, lr: 0.002500
+[ConvMixer] Epoch: 20 | Train Acc: 0.9367, Test Acc: 0.9240, Time: 50.8, lr: 0.002000
+[ConvMixer] Epoch: 21 | Train Acc: 0.9402, Test Acc: 0.9257, Time: 50.5, lr: 0.001500
+[ConvMixer] Epoch: 22 | Train Acc: 0.9409, Test Acc: 0.9268, Time: 50.4, lr: 0.001000
+[ConvMixer] Epoch: 23 | Train Acc: 0.9416, Test Acc: 0.9265, Time: 50.1, lr: 0.000500
+[ConvMixer] Epoch: 24 | Train Acc: 0.9433, Test Acc: 0.9274, Time: 50.0, lr: 0.000000
