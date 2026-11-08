@@ -10,8 +10,8 @@ DL, HSE, 2026
 - **CIFAR-10 implementation:** [locuslab/convmixer-cifar10](https://github.com/locuslab/convmixer-cifar10)
 - **Dataset:** CIFAR-10
 - **GitHub repository:** [SSHwizard07/dl-b8-convmixer](https://github.com/SSHwizard07/dl-b8-convmixer)
-- **Pre-registration PDF:** TODO
-- **Pre-registration Pull Request:** TODO
+- **Pre-registration PDF:** [preregistration.pdf](preregistration.pdf)
+- **Decision journal:** [DECISIONS.md](DECISIONS.md)
 - **Original baseline log:** [logs/r0-baseline.txt](https://github.com/SSHwizard07/dl-b8-convmixer/blob/main/logs/r0-baseline.txt)
 - **Experiment tracking:** [dl-b8-convmixer/logs](https://github.com/SSHwizard07/dl-b8-convmixer/tree/main/logs)
 
@@ -40,13 +40,13 @@ Reference accuracy - 92.60%  | Training time  - 21 min
 ## 3. Environment & Compute
 
 - Environment: Google Colab, NVIDIA Tesla T4 (15 GB VRAM)
-Framework: PyTorch, torchvision
+- Framework: PyTorch, torchvision
 - Experiment tracking: MLflow (local SQLite)
 - Dataset: CIFAR-10
 - Baseline: ConvMixer-256/8, 25 epochs, batch size 512
 - Training time: ~ 20 minutes per run
 
-Training is performed using run.py. Exact dependency versions are recorded separately.
+Training is performed using run.py. Exact dependency versions are recorded in requirements.txt.
 ## 4. Fixes & Experiments
 
 Fixes: 
@@ -68,5 +68,5 @@ Further experiments will use three fixed random seeds.
 
 | Member                    | Responsibilities |
 |---------------------------|------------------|
-| Цивлин А (SSHwizard07)    | TODO             |
-| Широкая А (annashirokaia) | TODO             |
+| Цивлин А (SSHwizard07)    | Environment, R0 baseline, ConvMixer runs, compute analysis, patch size × depth |
+| Широкая А (annashirokaia) | Pre-registration, ResNet and ViT baselines, augmentation experiments |
